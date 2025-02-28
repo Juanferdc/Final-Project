@@ -78,9 +78,10 @@ pytest test_project.py
 ```
 
 ## Academic Integrity
-This project was built using standard Python libraries, external API integrations, and the `requests` module. The **Google Maps API** was used for retrieving gym locations, and all relevant API calls are appropriately documented within the code. Any tools, libraries, or references used were cited within the code comments to maintain compliance with academic integrity guidelines> Using Chat.gpt, youtube tutorials and CS50 duck to help us in our errors and questions.
+
+This project was constructed with standard Python libraries, external API calls, and the `requests` library. The **Google Maps API** was utilized for getting gym locations, and all respective API calls are well-documented in the code. Any tools, libraries, or sources leveraged were referenced in the code comments to uphold academic integrity standards> Using Chat.gpt, youtube tutorials and CS50 duck to assist us in our questions and errors.
 
 
-The **Workout Planner** is a robust CLI-based application aimed at helping users achieve their fitness goals through structured workout recommendations and tracking. By integrating **Google Maps API**, it provides users with real-time gym locations, enhancing their workout experience. While the current version is CLI-based, future iterations will focus on making the application more interactive, scalable, and user-friendly.
+The **Workout Planner** is a feature-rich CLI-based program designed to assist users in reaching their desired fitness levels through well-structured workout plans and tracking. With the integration of **Google Maps API**, it provides users with real-time gym locations to further optimize their workout sessions. Although the present version is CLI-based, subsequent versions will aim to make the program more interactive, scalable, and user-friendly.
 
 
