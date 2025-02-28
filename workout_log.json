@@ -1,0 +1,14 @@
+[
+    {
+        "exercise": "burpees",
+        "duration": 10
+    },
+    {
+        "exercise": "running",
+        "duration": 5
+    },
+    {
+        "exercise": "Push ups",
+        "duration": 2
+    }
+]
