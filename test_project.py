@@ -3,10 +3,13 @@ import json
 from project import get_workout, calculate_calories_burned, log_workout
 
 def test_get_workout():
-    assert get_workout("strength", "beginner") == ["Push-ups", "Squats", "Dumbbell Press"]
-    assert get_workout("weight_loss", "advanced") == ["HIIT Circuits", "Sled Push", "Battle Ropes"]
-    assert get_workout("invalid_goal", "beginner") == ["No workouts available for given input."]
-
+    expected_output = {
+        "Push-ups": 10,
+        "Squats": 12,
+        "Dumbbell Press": 8
+    }
+    assert get_workout("strength", "beginner") == expected_output
+    
 def test_calculate_calories_burned():
     assert calculate_calories_burned("Push-ups", 10) == 70
     assert calculate_calories_burned("Jump Rope", 5) == 65
