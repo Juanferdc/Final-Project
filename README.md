@@ -1,5 +1,5 @@
 # Workout Planner
-## Video = https://youtu.be/zy-m9FfWiow 
+## Video = https://youtu.be/v0bbvgx_frI 
 
 The **Workout Planner** is a command-line program that generates personalized workout plans for users based on their goals and experience levels. It also enables users to find local gyms through the **Google Maps API** and record their finished workouts for reuse.
 
